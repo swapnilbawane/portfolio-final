@@ -1,0 +1,231 @@
+/* imported font monteserrat  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
+
+:root{
+    --primary-color: #d2691e;
+    /* #2563eb #a855f7*/
+    --dark-gray: rgba(255, 235, 205, 0.664);
+    --blanched-almond: blanchedalmond;
+    --monochromatic: #E4843F;
+    --footer-color: #FFD79A;
+}
+
+
+body
+{
+/* font-family: 'Montserrat', sans-serif; */
+font-family: 'Open Sans', sans-serif;
+margin: 0px;
+}
+
+
+/* horizontal line  */
+hr {
+    margin: 1rem 0rem;
+}
+
+
+/* small text */
+.text-sm {
+    font-size: 0.8em;
+}
+
+/* container  */
+.container {
+    padding: 0rem 1rem;
+}
+
+/* margin auto keeps thing in center */
+.container-center {
+    max-width: 600px;
+    margin: auto;
+    
+}
+
+
+/* links */
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem; 
+    margin-right: 5px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius:0.5rem;
+    color: white;
+    /* for rounded corners use 0.5rem */
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+
+/* lists */
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.paddingAdd { 
+padding: 1rem;
+}
+
+/* nav */
+.navigation {
+    /* background-color: var(--primary-color); */
+    background-color: #ffebcd;
+    color: black;
+    padding: 1rem; 
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+}
+
+.nav-brand { 
+    color: chocolate;
+}
+
+.navigation .link {
+    color: chocolate;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+
+/* Hero */
+
+.hero{
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+    /* margin auto brings image in center */
+}
+
+.hero .hero-heading {
+    padding-top: 1rem;
+color: var(--primary-color);
+text-align: center;
+}
+
+.hero .hero-heading .heading-inverted{
+    color: var(--primary-color);
+}
+
+
+/* Section */
+
+.section {
+    padding: 2rem;
+}
+
+/* section h1 will exclusively apply the rule to h1 only
+to make it apply for entire section, you need to define it separately as above.
+ */
+.section h1 {
+    text-align: center;
+    padding: 2rem;
+}
+
+
+/* beautify file */
+
+.ow {
+ background-color: var(--blanched-almond);   
+}
+
+
+/* footer */
+.footer
+{
+    background-color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+    border-top: bold black;
+}
+
+.footer .footer-header {
+    font-weight:bold;
+    font-size: large;
+}
+
+.footer-header { 
+    color: var(--primary-color);
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.footer .social-links .link {
+    color: var(--primary-color);
+}
+
+/* overwriting by finding where is the element. footer then social link and then link. No separate definition made just reused the same class but defined it according to its closest parent. */
+
+.padlist{
+    margin-bottom: 5rem;
+}
+
+.colorba { 
+    color: var(--blanched-almond);
+}
+
+.colorch { 
+    color: var(--primary-color);
+}
+
+#c2, #c3 { 
+    text-align: center;
+}
+
+.footer-color { 
+    color: var(--footer-color);
+}
+
+.monochromatic { 
+    color: var(--monochromatic);
+}
+
+.images-logo { 
+    margin-right: 2rem;
+}
+
+.logo-center { 
+    text-align: center;
+}
+
+.project-image { 
+background-image: url("images/project-launch.svg");
+background-repeat: no-repeat;
+/* background-color: none; */
+}
+
+.footer-blogs { 
+    background-color: #ffebcd;
+}
