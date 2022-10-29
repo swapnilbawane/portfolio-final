@@ -157,6 +157,7 @@ to make it apply for entire section, you need to define it separately as above.
 
 .ow {
  background-color: var(--blanched-almond);   
+ padding: 1.5rem 1rem;
 }
 
 
