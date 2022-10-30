@@ -22,3 +22,17 @@ Website is responsive.
 
 Website is hosted on Netlify.
 
+Home Page:
+![Home page](https://github.com/swapnilbawane/portfolio-final/blob/main/screenshot/m45-home1.jpg?raw=true)
+
+Home Page:
+![Home page](https://github.com/swapnilbawane/portfolio-final/blob/main/screenshot/m45-home2.jpg?raw=true)
+
+Home Page:
+![Home page](https://github.com/swapnilbawane/portfolio-final/blob/main/screenshot/m45-home3.jpg?raw=true)
+
+Projects Page:
+![Projects page](https://github.com/swapnilbawane/portfolio-final/blob/main/screenshot/m45-project1.jpg?raw=true)
+
+Blog Page:
+![Blog page](https://github.com/swapnilbawane/portfolio-final/blob/main/screenshot/m45-blog1.jpg?raw=true)
